@@ -1,16 +1,80 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Size Chart</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      text-align: center;
+      margin: 20px auto;
+    }
+    thead th {
+      background-color: #a94442;
+      color: white;
+      padding: 10px;
+    }
+    tbody td, tbody th {
+      padding: 8px;
+      border: 1px solid #000;
+    }
+    tbody th {
+      background-color: #d46a6a;
+      color: white;
+      text-align: left;
+    }
+    tbody tr:nth-child(2) td {
+      background-color: #e6cfcf;
+    }
+    tbody tr:nth-child(3) td {
+      background-color: #dcdcdc;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <h2 style="text-align:center;">Size Chart</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Part</th>
+        <th>XS</th>
+        <th>S</th>
+        <th>M</th>
+        <th>L</th>
+        <th>XL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Waist</th>
+        <td>25</td>
+        <td>28</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+      </tr>
+      <tr>
+        <th>Chest</th>
+        <td>34</td>
+        <td>34</td>
+        <td>38</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <th>Sleeve</th>
+        <td>23</td>
+        <td>24</td>
+        <td>24</td>
+        <td>25</td>
+        <td>25</td>
+      </tr>
+    </tbody>
+  </table>
 
 </body>
-
 </html>
